@@ -1,0 +1,733 @@
+
+.pricing section.inner-banner.pricing {
+    position: relative;
+}
+.pricing section.inner-banner.pricing .wrapper {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding-bottom: 25px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),url(../../Assets//images/pricing/bg.jpg) no-repeat;
+    background-size: cover;
+    max-width: 95%;
+    border-bottom-right-radius: 10px;
+}
+.pricing section.inner-banner.pricing:before {
+    display: none;
+    position: absolute;
+    content: '';
+    left: 15%;
+	background: -moz-linear-gradient(
+		137deg
+		, rgb(219, 76, 144) 0%, rgb(105, 17, 114) 100%);
+    background: -webkit-linear-gradient(
+
+		137deg
+		, rgb(219, 76, 144) 0%, rgb(105, 17, 114) 100%);
+    
+background: linear-gradient( 
+	137deg
+	, rgb(219, 76, 144) 0%, rgb(105, 17, 114) 100%);
+    height: 70%;
+    width: 250px;
+    opacity: 0.5;
+    z-index: 2;
+    top: 0;
+}
+.pricing section.inner-banner.pricing:after {
+    position: absolute;
+    content: '';
+    right: 0;
+    top: -220px;
+    bottom: -40px;
+    width: 30%;
+    border-bottom-left-radius: 10px;
+	background: -webkit-linear-gradient(
+
+		137deg
+		, rgb(219, 76, 144) 0%, rgb(105, 17, 114) 100%);
+    
+background: linear-gradient( 
+	137deg
+	, rgb(219, 76, 144) 0%, rgb(105, 17, 114) 100%);
+    z-index: -1;
+}
+.pricing section.inner-banner.pricing .wrapper  h3 {
+    font-size: 65px;
+    letter-spacing: 2px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: left;
+    font-weight: bold;
+    /* text-shadow: 2px 1px 2px rgb(0 0 0 / 79%); */
+    margin-left: 14px;
+
+}
+section.packages .head-desc h3 {
+    font-size: 40px;
+	font-family: "Montserrat";
+	font-weight: bold;
+    color: rgb(70, 70, 70);
+    text-transform: uppercase;
+    line-height: 1;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 5px;
+}
+section.packages .head-desc h2 {
+    font-size: 42px;
+	font-family: "Montserrat";
+	font-weight: bold;
+    color: rgb(105, 17, 114);
+    text-transform: uppercase;
+    line-height: 1.094;
+    text-align: center;
+    /* margin-bottom: 20px; */
+}
+section.packages .head-desc > p {
+    font-size: 14px;
+	font-family: "Montserrat";
+
+    color: rgb(70, 70, 70);
+    line-height: 1.786;
+    text-align: center;
+    max-width: 75%;
+    margin: auto;
+}
+.pricing section.packages .pf-tabs ul.react-tabs__tab-list {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 78px 0 95px;
+    position: relative;
+	border-bottom: none;
+}
+section.packages .react-tabs {
+    margin: -65px 0 0 0;
+}
+.pricing section.packages .pf-tabs ul.react-tabs__tab-list li {
+	flex: 0 0 17%;
+    max-width: 17%;
+    padding-right: 1%;
+	background: none;
+        border: none;
+        padding: 0;
+}
+.pricing .react-tabs__tab.react-tabs__tab--selected{
+    pointer-events: none;
+}
+.nested-tabs {
+    padding: 0 0;
+    margin: 93px 0 0;
+    /* background: #ff0e0e; */
+}
+.tab_box {
+    margin: -42px 0 0 0;
+}
+ul.pk0 {
+    height: 127px;
+    overflow-y: auto;
+    margin: 0 0 13px;
+}
+span.scroll-desc {
+    margin-top: 17px;
+}
+
+.pricing section.packages .pf-tabs ul.react-tabs__tab-list li a {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 15px;
+    font-family: "Montserrat";
+    color: rgb(70 70 70);
+    line-height: normal;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    border-radius: 10px;
+    z-index: 1;
+    overflow: hidden;
+    font-weight: bold;
+    border: 1px solid rgb(105, 17, 114);
+    background: #fff;
+    text-transform: uppercase;
+    transition: none;
+    
+}
+.pricing section.packages .pf-tabs .react-tabs__tab.react-tabs__tab--selected a{
+    background: -moz-linear-gradient(
+		137deg
+		, rgb(219, 76, 144) 0%, rgb(105, 17, 114) 100%) !important;
+    background: -webkit-linear-gradient(
+
+		137deg
+		, rgb(219, 76, 144) 0%, rgb(105, 17, 114) 100%) !important;
+    
+background: linear-gradient( 
+	137deg
+	, rgb(219, 76, 144) 0%, rgb(105, 17, 114) 100%) !important;
+    z-index: 9;
+    color: #fff;
+}
+.pricing section.packages .pf-tabs .react-tabs__tab.react-tabs__tab--selected a span{
+    color: #fff;
+}
+.pricing section.packages .pf-tabs ul.react-tabs__tab-list li a:before {
+    position: absolute;
+    content: '';
+    left: 1px;
+    right: 1px;
+    top: 1px;
+    bottom: 1px;
+    /* background: #fff; */
+    z-index: -1;
+    border-radius: 10px;
+    transition: ease all 0.25s;
+}
+.pricing section.packages .pf-tabs .wb-nest {
+    position: relative;
+}
+.pricing section.packages .pf-tabs .wb-nest:before {
+    position: absolute;
+    content: '';
+    left: -32px;
+    bottom: -5px;
+    right: 0;
+    margin: auto;
+    height: 0;
+    width: 15px;
+    background: #000 !important;
+    transition: ease all 0.25s;
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    opacity: 1;
+}
+.pricing section.packages .pf-tabs ul.react-tabs__tab-list li a:hover:before {
+    bottom: 100%;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.pricing section.packages .pf-tabs ul.react-tabs__tab-list li a:hover{
+	background: -moz-linear-gradient(
+		137deg
+		, rgb(219, 76, 144) 0%, rgb(105, 17, 114) 100%);
+    background: -webkit-linear-gradient(
+
+		137deg
+		, rgb(219, 76, 144) 0%, rgb(105, 17, 114) 100%);
+    
+background: linear-gradient( 
+	137deg
+	, rgb(219, 76, 144) 0%, rgb(105, 17, 114) 100%);
+	color: #fff;
+}
+.pricing section.packages .pf-tabs ul.react-tabs__tab-list li a span {
+    font-size: 16px;
+    text-transform: uppercase;
+    display: block;
+    color: #691172;
+	font-weight: bold;
+	padding-top: 4px;
+
+}
+.pricing section.packages .pf-tabs ul.react-tabs__tab-list li a:hover span{
+	color: #fff;
+}
+section.packages ul.react-tabs__tab-list:before {
+    position: absolute;
+    content: '';
+    right: 0%;
+    left: 0%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 70%;
+    height: 5px;
+    background: #691172;
+    border-radius: 1000px;
+}
+section.packages .packages-box .package-ticket {
+    max-width: 90%;
+    margin: auto;
+    background: #fff;
+    border-radius: 10px;
+    text-align:center;
+    position:relative;
+    background:#fff;
+}
+section.packages .packages-box .package-ticket:before{
+    position: absolute;
+    content: '';
+    width: 90%;
+    margin: auto;
+    top: -15px;
+    bottom: -15px;
+    border-radius: 10px;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    transition:ease all 0.25s;
+    background: rgb(105, 17, 114);
+}
+
+section.packages .packages-box .package-ticket:hover:before{
+    background:rgb(0 0 0);
+    
+}
+section.packages .packages-box .package-ticket .package-head{
+    padding:15px 0;
+}
+section.packages .packages-box .package-ticket .package-head span.package-name {
+    font-size: 25px;
+    font-family: "Montserrat";
+	font-weight: bold;
+    color: rgb(105, 17, 114);
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    display:block;
+}
+section.packages .packages-box .package-ticket .package-head span.packge-tag {
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: #000000;
+    font-weight: 300;
+    line-height: 1.2;
+    text-align: center;
+    display:block;
+    margin-bottom: 15px;
+}
+section.packages .packages-box .package-ticket .package-pricing {
+    position: relative;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.packages .packages-box .package-ticket .package-pricing:before {
+    position: absolute;
+    content: '';
+    background: #000000;
+    left: -15px;
+    right: -15px;
+    height: 100%;
+    z-index: -1;
+    border-radius: 10px;
+    transition:Ease all 0.25s;
+    background:rgb(0 0 0);
+}
+section.packages .packages-box .package-ticket .package-pricing .dis-price {
+    padding: 15px 0;
+}
+section.packages .packages-box .package-ticket .package-pricing .dis-price h2{
+    font-size: 50px;
+	font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1;
+    text-align: left;
+    margin:0;
+}
+section.packages .packages-box .package-ticket .package-pricing .dis-price h2 sup{
+    font-size: 24px;
+	font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 0.2;
+    text-align: left;
+    position: relative;
+    display: inline-block;
+    top: -18px;
+}
+section.packages .packages-box .package-ticket .package-pricing .act-price h4{
+    font-size: 24px;
+	font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    text-decoration: line-through;
+    line-height: 1;
+    text-align: left;
+    margin: 0;
+    position: relative;
+    right: -20px;
+    top:3px;
+}
+section.packages .packages-box .package-ticket .package-pricing .act-price h4 sup{
+    font-size: 14px;
+	font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    text-decoration: line-through;
+    line-height: 1.714;
+    text-align: left;
+}
+section.packages .packages-box .package-ticket .package-body{
+    position:relative;
+}
+section.packages .packages-box .package-ticket .package-body:before {
+    position: absolute;
+    content: '';
+    left: -1px;
+    right: -1px;
+    z-index: -1;
+    bottom: -1px;
+    top: -50px;
+    border-radius: 10px;
+    background: -moz-linear-gradient(90deg , rgb(255,185,13) 0%, rgb(204,0,69) 50%, rgb(7,6,83) 100%);
+    background: -webkit-linear-gradient(90deg , rgb(255,185,13) 0%, rgb(204,0,69) 50%, rgb(7,6,83) 100%);
+    background: linear-gradient(90deg , rgb(255,185,13) 0%, rgb(204,0,69) 50%, rgb(7,6,83) 100%);
+}
+section.packages .packages-box .package-ticket .package-body .package-desc{
+    padding:10px;
+    max-height:220px;
+}
+section.packages .packages-box .package-ticket .package-body .package-desc .mCSB_container {
+    margin: 0;
+    margin-left: 5px;
+}
+section.packages .packages-box .package-ticket .package-body .package-desc .mCSB_scrollTools {
+    left: 5px;
+    width: 3px;
+    overflow: hidden;
+}
+section.packages .packages-box .package-ticket .package-body .package-desc ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding: 0 15px;
+}
+section.packages .packages-box .package-ticket .package-body .package-desc ul li p {
+    margin: 0;
+    font-size: 12px;
+    font-family: "Montserrat";
+    line-height: 2;
+    text-align: center;
+    color: #5f5f5f;
+    padding: 2px 0;}
+section.packages .packages-box .package-ticket .package-body .package-desc ul li p span{
+    color: rgb(0 0 0);
+}
+section.packages .packages-box .package-ticket .package-body .package-desc span.scroll-desc ul {
+    background: #f7f7f7;
+    padding: 10px 22px;
+    height: 131px;
+    overflow-y: scroll;
+}
+section.packages .packages-box .package-ticket .package-body .package-desc .mCSB_scrollTools .mCSB_dragger_bar {
+    background:rgb(0 0 0);
+    background-color: rgba(0,0,0,0.5);
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+}
+section.packages .packages-box .package-ticket .package-body .package-desc span.scroll-desc ul li p {
+    font-size: 11px;
+    line-height:25px;
+}
+section.packages .packages-box .package-ticket .package-body .package-desc span.scroll-desc ul li p span {
+    padding-left:20px;
+    position:relative;
+}
+section.packages .packages-box .package-ticket .package-body .package-desc span.scroll-desc ul li p span:before{
+    position:absolute;
+    left:0;
+    top:0;
+    bottom:0;
+    content:'\f14a';
+    font-family:'Font Awesome 5 Free';
+    font-weight:900;
+    margin:auto;
+    font-size:16px;
+    line-height:1;
+    color:rgb(105, 17, 114);
+}
+section.packages .packages-box .package-ticket .package-body .package-footer{
+    padding:15px 0;
+    margin-top:70px;
+}
+.pricing section.packages .packages-box .package-ticket .package-body .package-footer .cta-box{
+    margin-bottom:10px !important;
+    /* margin-top: 26px; */
+}
+section.packages .packages-box .package-ticket .package-body .package-footer .cta-box a{
+    font-size: 16px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding: 10px 25px;
+    display:inline-block;
+    text-decoration:none!important;
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+    background:rgb(0 0 0);
+}
+section.packages .packages-box .package-ticket .package-body .package-footer .cta-box a:hover{
+    color: rgb(0 0 0);
+}
+section.packages .packages-box .package-ticket .package-body .package-footer .cta-box a:before{
+    position:absolute;
+    content:'';
+    left:0;
+    right:0;
+    height: 0;
+    width:0;
+    top:0;
+    bottom:0;
+    background:#fff;
+    transition:ease all 0.25s;
+    margin:auto;
+    z-index: -1;
+    border-radius: 15px;
+}
+section.packages .packages-box .package-ticket .package-body .package-footer .cta-box a:hover:before{
+    height:calc(100% - 2px);
+    width:calc(100% - 2px);
+}
+section.packages .packages-box .package-ticket .package-body .package-footer p {
+    margin: 0;
+    font-size: 14px;
+    color:#3e3e3e;
+    font-family: "Montserrat";
+    text-align: center;
+}
+section.packages .packages-box .package-ticket .package-body .package-footer p span{
+    color: rgb(105, 17, 114);
+}
+section.packages .packages-box .package-ticket:hover .package-pricing:before {
+    background: rgb(105, 17, 114);
+}
+section.packages .packages-box .package-ticket:hover .package-body .package-footer .cta-box a{
+    background: rgb(105, 17, 114);
+}
+section.packages .packages-box .package-ticket:hover .package-body .package-footer .cta-box a:hover{
+    background: rgb(105, 17, 114);
+}
+.pricing  section.packages {
+    background: url(../../Assets/images/pricing/packages-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0 100px !important;
+    z-index: 1;
+    position: relative;
+}
+.pricing .packages:before {
+    display: none;
+}
+.pricing .packages:after {
+    display: none;
+}
+.pricing section.packages .nested-tabs ul.react-tabs__tab-list::before{
+    display: none;
+}
+.pricing section.packages .nested-tabs ul.react-tabs__tab-list li a {
+    font-size: 16px;
+    background: transparent;
+    height: auto;
+    color: #000;
+    position: relative;
+    border: none;
+    width: 100%;
+    padding: 0;
+    border-radius: initial;
+} 
+.pricing section.packages .nested-tabs ul.react-tabs__tab-list {
+    display: block;
+}
+.pricing section.packages .nested-tabs ul.react-tabs__tab-list li {
+    width: 100%;
+    flex: initial;
+    max-width: calc(69% / 3);
+}
+.pricing section.packages .nested-tabs .react-tabs__tab.react-tabs__tab--selected a,
+.pricing section.packages .nested-tabs ul.react-tabs__tab-list li a:hover{
+    background: transparent !important;
+    color: rgb(219, 76, 144);
+}
+/* .pricing section.packages .nested-tabs ul.react-tabs__tab-list:before{
+    display: none;
+} */
+@media (max-width: 1199px){
+    .pricing section.inner-banner.pricing .wrapper h3 {
+        font-size: 47px;
+        margin-left: 18px;
+    }
+    .pricing section.packages {
+        padding: 35px 0 60px !important;
+    }
+    section.packages .head-desc h3 {
+        font-size: 32px;
+     
+        padding-bottom: 2px;
+    }
+    section.packages .head-desc h2 {
+        font-size: 32px;
+       
+    }
+    section.packages .head-desc > p {
+        font-size: 14px;
+        line-height: 23px;
+        padding: 6px 0 0px;
+    }
+    .pricing section.packages .pf-tabs ul.react-tabs__tab-list {
+    
+        margin: 78px 0 80px;
+  
+    }
+    section.packages .packages-box .package-ticket .package-pricing .dis-price h2{
+        font-size: 36px;
+    }
+    section.packages .packages-box .package-ticket .package-pricing .dis-price h2 sup {
+        font-size: 19px;
+       padding-right:2px ;
+        top: -19px;
+    }
+    section.packages .packages-box .package-ticket .package-pricing .act-price h4 {
+        font-size: 18px;
+      
+        right: -9px;
+        top: 0;
+    }
+}
+@media (max-width:768px){
+    .pricing section.inner-banner.pricing .wrapper {
+        height: 150px; 
+        padding-bottom: 0;
+    }
+    .pricing section.inner-banner.pricing .wrapper h3 {
+        font-size: 32px;
+        letter-spacing: initial;   
+        line-height: normal;
+        margin-left: 0;
+    }
+    .pricing section.packages {
+        padding: 10px 0 0 !important;
+    }
+    section.packages .head-desc h3 {
+        font-size: 18px;
+        line-height: normal;
+        margin: 0;
+        padding-bottom: 3px;
+    }
+    section.packages .head-desc h2 {
+        font-size: 21px;   
+        line-height: normal;
+        margin-bottom: 0;
+    }
+    section.packages .head-desc > p {
+        font-size: 12px;
+        line-height: 20px;    
+        max-width: 100%;
+        padding: 0 0 8px;
+    }
+    .pricing section.packages .pf-tabs ul.react-tabs__tab-list li {
+        width: calc(100% / 2 ) !important;
+        max-width: 100%;
+        padding-right: 1%;
+        background: none;
+        margin-bottom: 5px;
+    }
+    .pricing section.packages .pf-tabs ul.react-tabs__tab-list {
+        display: block;
+        margin: 63px 0 84px;
+       
+    }
+    ul.pk0 {
+        height: 88px;
+       
+    }
+    
+a.wb-nest i {
+    display: none;
+}
+
+    .pricing section.packages .pf-tabs ul.react-tabs__tab-list li a {
+        width: 126px;
+        height: 46px;
+        font-size: 12px;
+        margin: auto;
+       
+    }
+    .pricing section.packages .pf-tabs ul.react-tabs__tab-list li a span {
+        font-size: 11px;
+        padding-top: 0;
+    }
+    .pricing section.packages .pf-tabs ul.react-tabs__tab-list::before{
+        display: none;
+    }
+    .nested-tabs .react-tabs__tab-list{
+        margin: 10px 0;
+    }
+    .pricing section.packages .nested-tabs ul.react-tabs__tab-list {
+        display: block !important;
+        margin: 0 0 36px;
+    }
+    
+    
+    .pricing section.packages .nested-tabs ul.react-tabs__tab-list li {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .pricing section.packages .nested-tabs ul.react-tabs__tab-list li a {
+
+        height: 24px !important;
+        width: 100% !important;
+        padding: 0;
+        border-radius: initial;
+    }
+    section.packages .packages-box .package-ticket .package-head {
+        padding: 15px 0 0;
+    }
+    section.packages .packages-box .package-ticket {
+        max-width: 90%;
+     
+        margin-bottom: 39px;
+    }
+    section.packages .packages-box .package-ticket .package-pricing .dis-price h2 {
+        font-size: 29px;
+      
+        line-height: normal;
+     
+    }
+    section.packages .packages-box .package-ticket .package-pricing .dis-price h2 sup {
+        font-size: 16px;
+       
+        top: -11px;
+    }
+    section.packages .packages-box .package-ticket .package-pricing .act-price h4 {
+        font-size: 18px;
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+        text-decoration: line-through;
+        line-height: normal;
+        text-align: left;
+        margin: 0;
+        position: relative;
+        right: -8px;
+        top: 5px;
+    }
+    section.packages .packages-box .package-ticket .package-body .package-desc ul li p {
+        margin: 0;
+        font-size: 11px;
+    
+        line-height: 20px;
+       
+        padding: 2px 0;
+    }
+    section.packages .packages-box .package-ticket .package-body .package-footer {
+        padding: 15px 0;
+        margin-top: 44px;
+    }
+    section.packages .packages-box .package-ticket .package-body .package-footer p {
+
+        font-size: 13px;
+      
+    }
+    section.packages .packages-box .package-ticket .package-body .package-desc span.scroll-desc ul {
+     
+        height: 119px;
+   
+    }
+
+}

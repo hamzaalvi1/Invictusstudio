@@ -1,0 +1,181 @@
+
+section.cpcta-sect {
+  
+    background-size: cover !important;
+    padding: 70px 0;
+    background-position: center;
+}
+
+section.cpcta-sect h3 {
+    font-size: 30px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 47px;
+    text-align: left;
+}
+
+section.cpcta-sect h3 strong {
+    font-size: 45px;
+    display: block;
+}
+
+section.cpcta-sect p {
+    font-size: 15px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    line-height: 26px;
+    text-align: left;
+    margin: 0;
+}
+
+section.cpcta-sect .cta-box {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: -80px;
+}
+
+section.cpcta-sect .cta-box a {
+    display: block;
+    position: relative;
+    padding: 10px 20px;
+    padding-right: 65px;
+    background: rgb(85, 162, 227);
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.714;
+    text-align: left;
+    border-radius: 25px;
+    transition: ease all 0.25s;
+    border: 1px solid #55a2e3;
+    right: 45px;
+}
+
+section.cpcta-sect .cta-box a:before {
+    position: absolute;
+    content: '\f054';
+    font-family: 'Font Awesome 5 Free';
+    right: 15px;
+    width: 28px;
+    height: 28px;
+    background: white;
+    border-radius: 100%;
+    color: #7e1d86;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    transition: ease all 0.25s;
+    bottom: 0;
+    margin: auto;
+}
+
+section.cpcta-sect .cta-box a:hover {
+    background: #fff;
+    color: #55a2e3;
+    border-color: #fff;
+}
+
+section.cpcta-sect .cta-box a:hover:before {
+    background: #55a2e3;
+}
+@media (max-width:1199px){
+    section.cpcta-sect h3 {
+        font-size: 26px;
+     
+        line-height: 33px;
+    
+    }
+    section.cpcta-sect h3 strong {
+        font-size: 37px;
+        display: block;
+    }
+    section.cpcta-sect p {
+        font-size: 14px;
+ 
+        line-height: 25px;
+     
+    }
+}
+@media (max-width: 991px){
+    section.cpcta-sect {
+        padding: 40px 0;
+    }
+    section.cpcta-sect h3 {
+        font-size: 27px;
+      
+        line-height: 35px;
+        margin: 0;
+
+    }
+    section.cpcta-sect h3 strong {
+        font-size: 28px;
+        display: block;
+    }
+  
+    section.cpcta-sect p {
+        font-size: 12px;
+      
+        line-height: 22px;
+        
+    }
+    
+}
+@media (max-width: 824px){
+    section.cpcta-sect h3 {
+    
+            font-size: 18px;
+            text-align: left;
+            line-height: normal;
+            margin-bottom: 0;
+        
+    }
+    section.cpcta-sect{
+        padding: 25px 0;
+    }
+    section.cpcta-sect h3 strong {
+        font-size: 23px;
+        display: block;
+        text-align: left;
+        padding-top: 4px;
+        line-height: normal;
+    }
+    section.cpcta-sect p {
+        font-size: 13px;
+   
+        text-align: left;
+    }
+    section.cpcta-sect .cta-box {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-right: 0;
+    }
+    section.cpcta-sect .cta-box a {
+        right: 0;
+        margin: 4px 0 0 0;
+        width: 151px;
+        font-size: 12px;
+        white-space: nowrap;
+        line-height: 18px;
+        height: 39px;
+    }
+    section.cpcta-sect .cta-box a:before {
+     
+        right: 12px;
+        width: 25px;
+        height: 25px;
+        font-size: 11px;
+    }
+    section.portfolio {
+      
+        padding: 18px 0;
+    }
+}

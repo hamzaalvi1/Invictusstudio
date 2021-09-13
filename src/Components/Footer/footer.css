@@ -1,0 +1,244 @@
+
+
+
+
+
+
+
+footer {
+    background-color: #231e2e;
+}
+footer .footer-main-wrapper {
+    padding: 30px 0 10px;
+    position: relative;
+}
+
+
+.footer-para p {
+    text-align: left;
+    color: #fff;
+    font-size: 14px;
+    padding: 0 20px 0 0;
+    line-height: 22px;
+}
+.footer-para a {
+    display: block;
+    text-align: left;
+    color: #b43887;
+    font-size: 14px;
+    font-weight: 500;
+    -webkit-backface-visibility: hidden;
+
+}
+
+
+
+
+footer .footer-main-wrapper .heading h3 {
+    font-size: 22px;
+    font-family: "Montserrat";
+    color:#fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 20px
+}
+
+ul.ftr-list {
+    padding: 0;
+}
+
+ul.ftr-list li {
+    text-align: left;
+    position: relative;
+}
+ul.ftr-list li:before {
+    content: "\f054";
+    font-family: "Font Awesome 5 Free";
+    color: #ba3c8e;
+    font-size: 10px;
+    position: absolute;
+    top: 48%;
+    left: -12px;
+    font-weight: 700;
+    transform: translateY(-50%);
+    margin: 0 0 12px 0;
+}
+
+ul.ftr-list li a {
+    color: #fff;
+    font-size: 12px;
+    padding-bottom: 8px;
+}
+ul.ftr-list li a:hover{
+    color: #ba3c8e;
+
+
+}
+.ftr-links {
+    display: flex;
+    justify-content: center;
+}
+ul.ct {
+    padding: 0;
+    margin: 0;
+}
+
+ul.ct li {
+    text-align: left;
+    color: #af3483;
+    font-size: 14px;
+    padding: 5px 0 10px;
+}
+
+ul.ct li i {
+    font-size: 16px;
+    padding: 0 4px 0 0;
+}
+.footer-para a {
+    padding: 0 0 5px 0;
+    font-size: 12px;
+    color: #b73c8c !important;
+}
+ul.ct li a {
+    color: #fff;
+    font-size: 12px;
+    -webkit-backface-visibility: hidden;
+
+
+}
+ul.ct li a:hover {
+    color: #af3483;
+}
+
+.social_footer a i {
+    font-size: 18px;
+    color:  #af3483;
+    transition: 0.5s;
+}
+.social_footer a i:hover {
+    font-size: 18px;
+    color:  #fff;;
+}
+
+.social_footer a {
+    color:#af3483;;
+    /* font-size: 13px; */
+    padding: 0 14px 13px 0;
+
+}
+li.mp a i {
+    padding-right: 7px;
+}
+
+.social_footer {
+    display: block;
+    text-align: left;
+}
+.copyrights-box h6 {
+    color: #a23483;
+    text-align: left;
+    font-size: 13px;
+    -webkit-backface-visibility: hidden;
+}
+
+.copyrights-box p {
+    color: #fff;
+    font-size: 8px;
+    text-align: left;
+    padding: 0;
+    margin: 0 0 7px;
+    line-height: 15px;
+}
+
+.copyrights-box a {
+    text-align: left;
+    display: block;
+    font-size: 08px;
+    padding: 0;
+    color: #fff;
+}
+
+.copyrights-box {
+    padding: 14px 0 18px;
+    background: #181520;
+}
+
+
+.reviews-box {
+    padding: 0 0 17px;
+}
+p.awards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width: 824px){
+    footer .footer-main-wrapper .menu-wrapper.main-nav ul li {
+        width: 100%;
+    }
+    footer .footer-main-wrapper .heading h3 {
+        font-size: 16px;
+  
+        margin-bottom: 5px;
+    }
+    footer .footer-main-wrapper:before{
+        display: none;
+    }
+    footer .footer-main-wrapper:after{
+        display: none;
+    }
+    footer .footer-main-wrapper .col-md-4:nth-child(3) {
+        width: 100%;
+        padding-left: 0;
+        padding: 0 10px;
+    }
+    footer .footer-main-wrapper {
+        padding: 10px 0 0;
+        position: relative;
+    }
+    footer .copyrights-box p {
+        margin: 0;
+        font-size: 9px;
+        color: rgb(255 255 255);
+        line-height: 12px;
+        text-align: center;
+        font-weight: 500;
+        text-align: left;
+        padding-bottom: 5px;
+    }
+    footer .copyrights-box ul {
+        display: block;
+        /* justify-content: flex-end; */
+        margin:  10px 0;
+    }
+    footer .copyrights-box ul li {
+        padding-left: 0;
+        margin-left: 0;
+        position: relative;
+     
+           width: calc(90%/2);
+            display: inline-block;
+            text-align: center;
+   
+       
+    }
+    footer .copyrights-box ul li:before{
+        display: none
+    }
+    .footer-para p {
+        text-align: left;
+        color: #fff;
+        font-size: 12px;
+        padding: 0 0 5px;
+        line-height: 19px;
+        margin: 0;
+    }
+    .ftr-links {
+        display: block;
+    }
+    ul.ftr-list li a {
+  
+        padding-bottom: 12px;
+    }
+}

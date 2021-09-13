@@ -1,0 +1,975 @@
+.Android {
+	font-family: "Montserrat";
+}
+.Android .main-Banner{
+	height: 533px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Android .banner-content::before{
+	display: none;
+}
+.Android .banner-content::after{
+	display: none;
+}
+.Android .banner-content h1 {
+    font-size: 56px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #fff;
+    line-height: normal;
+    text-align: left;
+}
+.Android .banner-content h3{
+	color: #55a2e3;
+    text-align: left;
+
+} 
+.Android .banner-content h3:before{
+	display: none;
+}
+.Android .banner-img img {
+    position: absolute;
+    top: -100px;
+    left: 0;
+}
+.Android  .resp-box:hover{
+	background: url(../../../../Assets/images/services/mobile-app/android/idea/bg.jpg);
+
+}
+.Android section.our-responsive {
+    padding: 147px 0 40px;
+}
+.Android .resp-content h2 span::before {
+    position: absolute;
+    content: '';
+    height: 55px;
+    width: 55px;
+    bottom: -1px;
+    left: -35px;
+   
+}
+.Android .resp-content h2{
+	margin-left: 20px;
+    line-height: 60px;
+   
+}
+.Android .bann-btn{
+	text-align: left;
+}
+.Android .resp-content h4{
+	letter-spacing: 4px;
+	margin-left: 15px;
+}
+.build-app {
+	background: url(../../../../Assets/images/services/mobile-app/android/build/bg.jpg);
+	height: 407px;
+	width: 100%;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.build-app-content h4 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.build-app-content h2 {
+    font-size: 45px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.build-app-content p {
+    color: #fff;
+    line-height: 28px;
+    font-size: 15px;
+}
+.Android .build-app-content .bann-btn{
+	text-align: center;
+}
+.resp-content {
+    margin-left: 50px;
+}
+.Android .resp-content p {
+    font-size: 15px;
+    text-align: left;
+    font-weight: 500;
+    line-height: 29px;
+    margin: 10px 0;
+}
+.exp-content h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+	position: relative;
+	z-index: 1;
+	text-align: left;
+    margin-bottom: 10px;
+
+}
+.exp-content h2 span {
+    position: relative;
+    color: #fff;
+    z-index: 1;
+    line-height: 1;
+}
+.exp-content  h2 span::before {
+    position: absolute;
+    content: '';
+    height: 60px;
+    width: 60px;
+	bottom: -2px;
+    left: -21px;
+    right: 2%;
+    border-radius: 100%;
+    margin: auto;
+    z-index: -1;
+    background: -webkit-linear-gradient( 
+137deg
+ , rgb(116, 26, 125) 0%, rgb(188, 61, 136) 100%);
+}
+section.experience-mobile {
+    padding: 99px 0 57px !important; 
+}
+.exp-content p{
+	font-weight: 500;
+	text-align: left;
+	font-size: 15px;
+}
+/* .exp-img img {
+    position: absolute;
+    top: -84px;
+    left: 0;
+} */
+.exp-img {
+    position: relative;
+}
+.exp-img:before{
+	content: "";
+	background: url(../../../../Assets/images/services/mobile-app/android/build/img-right.png) no-repeat;
+	background-size: 100%;
+    width: 523px;
+    height: 736px;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    left: 0;
+}
+.and-content h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+	position: relative;
+	z-index: 1;
+	text-align: center;
+
+}
+.and-content h2 span {
+    position: relative;
+    color: #fff;
+    z-index: 1;
+    line-height: 1;
+}
+.and-content  h2 span::before {
+    position: absolute;
+    content: '';
+    height: 60px;
+    width: 60px;
+	bottom: -2px;
+    left: -21px;
+    right: 2%;
+    border-radius: 100%;
+    margin: auto;
+    z-index: -1;
+    background: -webkit-linear-gradient( 
+137deg
+ , rgb(116, 26, 125) 0%, rgb(188, 61, 136) 100%);
+}
+.and-content h4 {
+    font-size: 40px;
+    color: #741a7d;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.mbleSlider .slick-slide .mbile-box {
+    opacity: 0.7;
+}
+.mbleSlider .slick-slide.slick-current .mbile-box {
+    opacity: 1;
+}
+.mbleSlider .slick-slide.slick-current .mbile-box img{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+section.our-work-and {
+    padding: 60px 0;
+}
+
+.and-content {
+    padding-bottom: 23px;
+}
+.tech-content h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+	position: relative;
+	z-index: 1;
+	text-align: left;
+
+}
+.tech-content h2 span {
+    position: relative;
+    color: #fff;
+    z-index: 1;
+    line-height: 1;
+}
+.tech-content  h2 span::before {
+    position: absolute;
+    content: '';
+    height: 60px;
+    width: 60px;
+	bottom: -2px;
+    left: -39px;
+    right: 2%;
+    border-radius: 100%;
+    margin: auto;
+    z-index: -1;
+    background: -webkit-linear-gradient( 
+137deg
+ , rgb(116, 26, 125) 0%, rgb(188, 61, 136) 100%);
+}
+.tech-content h4 {
+    font-size: 40px;
+    color: #741a7d;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: left;
+}
+.tech-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.tech-content {
+    width: 100%;
+    flex: 1;
+    margin: 24px 0 0 50px;
+}
+ul.lang-list {
+    background-color: rgb(255, 255, 255);
+    width: 917px;
+    height: 451px;
+    box-shadow: -3.632px 7.128px 11.18px 1.82px rgb(0 2 3 / 7%);
+    position: absolute;
+    top: 173px;
+    right: 0;
+    padding: 80px 0;
+}
+ul.lang-list li {
+    width: calc(90% / 4);
+    display: inline-block;
+    margin: 0 0 65px 12px;
+}
+section.technology-box {
+    position: relative;
+    padding: 0 0 140px 0;
+}
+.app-content h4{
+    font-size: 40px;
+    color: #741a7d;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 7px;
+
+}
+.app-content h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+	position: relative;
+	z-index: 1;
+	text-align: center;
+    padding-bottom: 30px;
+
+}
+.app-content h2 span {
+    position: relative;
+    color: #fff;
+    z-index: 1;
+    line-height: 1;
+}
+.app-content  h2 span::before {
+    position: absolute;
+    content: '';
+    height: 60px;
+    width: 60px;
+	bottom: -2px;
+    left: -20px;
+    right: 2%;
+    border-radius: 100%;
+    margin: auto;
+    z-index: -1;
+    background: -webkit-linear-gradient( 
+137deg
+ , rgb(116, 26, 125) 0%, rgb(188, 61, 136) 100%);
+}
+section.android-app {
+    padding: 100px 0;
+}
+.app-content{
+    position: relative;
+}
+.doted-line{
+    background: url("../../../../Assets//images//services/mobile-app/android/app/dot-line.png") no-repeat;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    z-index: -1;
+}
+ul.app-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.app-box span {
+    background: #fff;
+    height: 104px;
+    width: 104px;
+    border: 1px solid #741a7d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: 0.6s ease-in;
+}
+.app-box:hover span{
+    background: -moz-linear-gradient( 137deg, rgb(116,26,125) 0%, rgb(188,61,136) 100%);
+    background: -webkit-linear-gradient( 137deg, rgb(116,26,125) 0%, rgb(188,61,136) 100%);
+    background: linear-gradient( 137deg, rgb(116,26,125) 0%, rgb(188,61,136) 100%);
+
+}
+.app-box:hover span img{
+    filter: grayscale(1) brightness(100)
+}
+
+.app-box h6 {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px 0 0 0;
+}
+.app-box:hover h6{
+    color: #741a7d ;
+}
+
+.app-box {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.doted-line {
+    background: url(../../../../Assets/images/services/mobile-app/android/app/dot-line.png) no-repeat;
+    width: 100%;
+    height: 176px;
+    position: absolute;
+    top: 50%;
+  
+}
+.android-app .bann-btn{
+    text-align: center;
+}
+.app_dev{
+    background-size: cover !important;
+    background: url(../../../../Assets/images/services/mobile-app/android/app-dev/bg.jpg) no-repeat;
+    height: 634px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 100px 0 0;
+}
+.app-img {
+    position: relative;
+    right: 41%;
+}
+
+ul.dev_list li {
+    width: calc(90% / 2);
+    display: inline-block;
+    margin-bottom: 25px;
+    margin-left: 30px;
+}
+.appDev-content {
+    padding: 15px 0 30px;
+}
+.appDev-content h4 {
+    text-align: left;
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.appDev-content h2 {
+    font-size: 50px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+}
+.dev-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dev-box span {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    transition: 0.5s;
+    margin-right: 15px;
+}
+.dev-box h5 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 22px;
+    text-align: left;
+}
+.dev-box p {
+    font-size: 13px;
+    color: #fff;
+    font-weight: 400;
+    text-align: left;
+    max-height: 69px;
+    overflow-y: scroll;
+    line-height: 20px;
+}
+.dev-box:hover span{
+    background: #55a1e2;
+}
+.work-content h4{
+    font-size: 40px;
+    color: #741a7d;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 7px;
+
+}
+.work-content h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+	position: relative;
+	z-index: 1;
+	text-align: center;
+    padding-bottom: 30px;
+
+}
+.work-content h2 span {
+    position: relative;
+    color: #fff;
+    z-index: 1;
+    line-height: 1;
+}
+.work-content  h2 span::before {
+    position: absolute;
+    content: '';
+    height: 60px;
+    width: 60px;
+	bottom: -2px;
+    left: -39px;
+    right: 2%;
+    border-radius: 100%;
+    margin: auto;
+    z-index: -1;
+    background: -webkit-linear-gradient( 
+137deg
+ , rgb(116, 26, 125) 0%, rgb(188, 61, 136) 100%);
+ padding-bottom: 20px;
+}
+.indv_box {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 242px;
+    height: 224px;
+    background-color: rgb(255, 255, 255);
+    transition: 0.7s;
+
+}
+.indv_box h6{
+    font-size: 16px;
+    color: #252525;
+    padding-top: 25px;
+    font-weight: bold;
+}
+/* .indv_slider .slick-slide.slick-active.slick-current{
+    box-shadow: 0px 0px 27px 0px rgba(0, 0, 0, 0.16)
+
+} */
+.indv_slider .slick-slide.slick-active.slick-current h6{
+    color: #741a7d;
+}
+section.where-we-work {
+    padding: 100px 0;
+}
+.ind-parent {
+    display: flex !important;
+    /* margin: auto; */
+    justify-content: center;
+    align-items: center;
+}
+.indv_slider .slick-arrow.slick-prev::before {
+    content: "\f053";
+    position: absolute;
+    top: 0;
+    left: 26px;
+    font-weight: 700;
+    font-family: 'Font Awesome 5 Free';
+    font-size: 18px;
+    width: 39px;
+    height: 39px;
+    background: #e4e4e4;
+    z-index: 9999;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.indv_slider .slick-arrow.slick-next::before {
+    content: "\f054";
+    position: relative;
+    top: 0;
+    right: 53px;
+    font-weight: 700;
+    font-family: 'Font Awesome 5 Free';
+    font-size: 18px;
+    width: 39px;
+    height: 39px;
+    background: #e4e4e4;
+    z-index: 9999;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.indv_slider button.slick-arrow.slick-prev {
+    z-index: 1;
+}
+.indv_slider .slick-arrow.slick-prev:hover::before, .indv_slider .slick-arrow.slick-next:hover::before {
+    background: linear-gradient( 
+137deg
+, rgb(219,76,144) 0%, rgb(105,17,114) 100%);
+    color: #fff;
+}
+@media (max-width:768px){
+    .Android .main-Banner {
+        height: 150px;
+       
+    }
+    .Android .banner-content h1 {
+        font-size: 23px;
+        padding: 0 0 2px;
+    }
+    .Android .banner-img img {
+        position: absolute;
+        left: 0;
+        top: -29px;
+    }
+    .resp-content {
+        margin-left: 0;
+    }
+    .Android .resp-content h4 {
+        letter-spacing: 2px;
+        margin-left: 0;
+        text-align: left;
+        padding: 0;
+    }
+    .Android .resp-content h2 {
+        margin-left: 5px;
+        line-height: 28px;
+        text-align: left;
+        font-size: 17px;
+
+    }
+    .Android .resp-content h2 span::before {
+        position: absolute;
+        content: '';
+        height: 28px;
+        width: 28px;
+        bottom: -3px;
+        left: -21px;
+    }
+    .Android .resp-content p {
+        font-size: 12px;
+        text-align: left;
+        font-weight: 500;
+        line-height: 19px;
+        margin: 0;
+        padding-bottom: 10px;
+    }
+    .Android .build-app {
+        background: url(../../../../Assets/images/services//mobile-app/android/build/bg-res.jpg) !important;
+        height: auto;
+        padding: 14px 0;
+    
+   
+    }
+    .Android section.our-responsive {
+        padding: 18px 0 10px;
+    }
+    .Android .build-app-content h4{
+        font-size: 18px !important;
+        padding-bottom: 3px !important;
+    margin: 0;
+    text-align: left;
+
+    }
+    .Android  .build-app-content h2 {
+        font-size: 17px !important;
+        margin: 0;
+    
+    }
+    .Android  .build-app-content p {
+        color: #fff;
+        line-height: 18px;
+        font-size: 12px;
+        margin: 5px 0 3px;
+        text-align: left;
+        padding: 0 0 4px;
+    }
+    .Android .build-app-content .bann-btn{
+        text-align: left;
+    }
+    .Android section.experience-mobile {
+        padding: 15px 0 !important;
+        height: 790px;
+    }
+    .exp-content h2 {
+        font-size: 18px;
+        
+        margin-bottom: 6px;
+    }
+    .exp-content h2 span::before {
+        position: absolute;
+        content: '';
+        height: 28px;
+        width: 28px;
+        bottom: -1px;
+        left: -15px;
+       
+    }
+    .Android .exp-content p {
+     
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .Android .exp-img{
+        position: initial;
+    }
+    .Android .exp-img:before {
+        content: "";
+        background-size: 100%;
+        width: 205px;
+        height: 222px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        top: -47px;
+        transform: translateX(-50%);
+    }
+    .Android section.our-work-and {
+        padding: 10px 0;
+    }
+    .Android .and-content h4 {
+        font-size: 18px;
+
+        line-height: normal;
+        margin: 0;
+     
+    }
+    .Android .and-content h2 {
+        font-size: 21px;
+       
+    }
+    .Android .and-content h2 span::before {
+    
+        height: 30px;
+        width: 30px;
+        bottom: -2px;
+        left: -12px;
+    
+    }
+    .Android .and-content {
+        padding-bottom: 0;
+    }
+    .Android  .tech-img {
+        display: none;
+    }
+    .Android  .tech-detail {
+        display: block;
+    }
+    .Android   .tech-content {
+        width: 100%;
+        flex: 0;
+        margin: 0;
+    }
+    .Android  .tech-content h4 {
+        font-size: 18px;
+
+       
+        margin: 0;
+        text-align: center;
+    }
+    .Android  .tech-content h2 {
+        font-size: 21px;  
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    .Android .tech-content h2 span::before {
+     
+        height: 29px;
+        width: 29px;
+        bottom: -3px;
+        left: -21px;
+       
+    }
+    .Android section.technology-box {
+        position: relative;
+        padding: 0px 0 0 0;
+    }
+    .Android  ul.lang-list {
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: auto;
+        box-shadow: -3.632px 7.128px 11.18px 1.82px rgb(0 2 3 / 7%);
+        position: relative;
+        top: initial;
+        right: 0;
+        padding: 5px 0;
+    }
+    .Android  ul.lang-list li {
+        width: calc(90% / 2);
+        display: inline-block;
+        margin: 0 0 17px 0px;
+        vertical-align: bottom;
+    }
+    .Android  section.android-app {
+        padding: 20px 0;
+    }
+    .Android .app-content h4 {
+        font-size: 18px;
+   
+        text-transform: initial !important;
+       
+        letter-spacing: 0px;
+    }
+    .Android .app-content h2 {
+        font-size: 18px;
+       
+        letter-spacing: 0;
+       
+        padding-bottom: 0;
+    }
+    .Android .app-content h2 span::before {
+        position: absolute;
+        content: '';
+        height: 30px;
+        width: 30px;
+        bottom: -2px;
+        left: -14px;
+       
+    }
+    .Android .appDev-content {
+        padding: 0;
+    }
+    .Android .doted-line{
+        display: none;
+    }
+    .Android ul.app-list {
+        display: block;
+      
+        padding: 0;
+    }
+    .Android .app-box span {
+        height: 80px;
+        width: 80px;
+    
+    }
+    .Android .app-box span img{
+        width: 40px;
+    }
+    .Android ul.app-list li {
+        width: calc(100% / 3);
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .Android .app-box h6 {
+        font-size: 9px;
+        font-weight: bold;
+        /* text-transform: uppercase; */
+        padding: 7px 0 0 0;
+    }
+    .Android .app-content .bann-btn{
+        display: none;
+
+    }
+    .Android .app_dev{
+        height: auto;
+        background: url(../../../../Assets/images/services/mobile-app/android/app/res1.jpg) !important;
+        padding: 20px 0 0;
+    }
+    .Android .appDev-content h4 {
+
+        font-size: 18px;
+ 
+         text-align: center;
+        letter-spacing: 2px;
+        margin: 0;
+    }
+    .Android  .appDev-content h2 {
+        font-size: 21px;
+     
+        text-align: center;
+        margin: 0;
+        padding-bottom: 5px;
+    }
+    .Android ul.dev_list {
+        padding: 0;
+    }
+    .Android ul.dev_list li {
+        width: calc(100% / 2);
+        display: inline-block;
+        margin-bottom: 10px;
+        margin-left: 0;
+        vertical-align: middle;
+    }
+    .Android  .dev-box span {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: 1px solid #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 17px;
+        transition: 0.5s;
+        margin-right: 0;
+        margin: auto;
+    }
+    .Android .dev-box h5 {
+        font-size: 12px;
+        color: #fff;
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 18px;
+        text-align: center;
+    }
+    .Android .dev-box p {
+        font-size: 11px;
+        color: #fff;
+        font-weight: 400;
+        text-align: center;
+        max-height: 55px;
+        overflow-y: scroll;
+        line-height: 14px;
+    }
+    .Android .app-img {
+        display: none;
+    }
+    .Android section.where-we-work {
+        padding: 15px 0;
+    }
+    .Android .work-content h4 {
+        font-size: 17px;
+        color: #741a7d;
+     
+        letter-spacing: 3px;
+    }
+    .mbile-box img {
+        display: block;
+        margin: auto;
+        
+    width: 100%;
+
+    }
+    .Android  .work-content h2 {
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 1px;
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .Android  .work-content h2 span::before {
+      
+        height: 28px;
+        width: 28px;
+        bottom: -2px;
+        left: -20px;
+       
+        padding-bottom: 20px;
+    }
+    .Android   .indv_slider .slick-arrow.slick-prev::before {
+        left: 16px;
+        font-size: 14px;
+        width: 25px;
+        height: 25px;
+       
+    }
+    .Android  .indv_slider .slick-arrow.slick-next::before {
+    
+        right: 22px;
+      
+        font-size: 13px;
+        width: 25px;
+        height: 25px;
+     
+    }    
+    .Android  .indv_box h6 {
+        font-size: 14px;
+   
+        padding-top: 12px;
+
+    }
+    .Android  .indv_box {
+      
+        width: 207px;
+        height: 129px;
+        background-color: rgb(255, 255, 255);
+     
+    }
+    .Android .indv_box img {
+        width: 50px;
+    }
+}

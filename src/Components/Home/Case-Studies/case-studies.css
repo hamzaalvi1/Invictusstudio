@@ -1,0 +1,357 @@
+
+
+
+
+
+section.case-studies {
+    padding: 20px 0 40px;
+    position: relative;
+}
+
+section.case-studies .head-desc {
+    padding-bottom: 0;
+}
+
+section.case-studies .head-desc h3 {
+    font-size: 40px;
+    font-family: "Montserrat";
+    color: rgb(116, 26, 125);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: normal;
+    text-align: center;
+    margin: 0;
+}
+
+
+
+section.case-studies .head-desc h2 {
+    font-size: 40px;
+    font-family: "Montserrat";
+    color: #252525;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+section.case-studies .head-desc h2 span {
+    position: relative;
+    color: #fff;
+    z-index: 1;
+    line-height: 1;
+}
+
+.head-desc h2 span:before {
+    position: absolute;
+    content: '';
+    height: 60px;
+    width: 60px;
+    bottom: 2%;
+    left: -25%;
+    right: 0%;
+    border-radius: 100%;
+    margin: auto;
+    z-index: -1;
+    background: -moz-linear-gradient( 137deg, rgb(116, 26, 125) 0%, rgb(188, 61, 136) 100%);
+    background: -webkit-linear-gradient( 137deg, rgb(116, 26, 125) 0%, rgb(188, 61, 136) 100%);
+    background: linear-gradient( 137deg, rgb(116, 26, 125) 0%, rgb(188, 61, 136) 100%);
+}
+
+ .case-studies-slider .img-box {
+    position: relative;
+    display: flex;
+    position: relative;
+    padding-bottom: 150px;
+}
+
+ .case-studies-slider .img-box>img {
+    border-radius: 6px;
+    width: 90%;
+}
+
+/* section.case-studies .case-studies-slider .img-box .device-box {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: block;
+    width: fit-content;
+    width: -moz-fit-content;
+} */
+.device-box {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: block;
+    width: fit-content;
+    width: -moz-fit-content;
+}
+
+
+
+ .device-box img.device {
+    box-shadow: 0px 0px 20px 5px rgb(0 174 239 / 0%);
+    border-radius: 36px;
+    transition: ease all 0.5s;
+    width: 90%;
+}
+
+.device-box img.device {
+    box-shadow: 0px 0px 20px 5px rgb(0 174 239);
+}
+
+span.logo-box {
+    position: absolute;
+    background: #fff;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    top: 80px;
+    right: -13px;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+}
+
+span.logo-box img {
+    width: 71px;
+}
+
+section.case-studies .case-studies-slider .item .desc {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 17px 0
+}
+
+section.case-studies .case-studies-slider .item .desc h3 {
+    font-size: 36px;
+    font-family: "Montserrat";
+    color: rgb(85, 162, 227);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: normal;
+    text-align: left;
+    margin: 0;
+}
+
+section.case-studies .case-studies-slider .item .desc p {
+    font-size: 15px;
+    font-family: "Montserrat";
+    color: rgb(37, 37, 37);
+    line-height: 29px;
+    text-align: left;
+
+}
+
+section.case-studies .case-studies-slider .item .desc .cta-box {
+    text-align: left;
+    display: block;
+    margin: initial;
+    margin: 0;
+
+}
+
+section.case-studies .case-studies-slider .item .desc .cta-box a {
+    display: inline-block;
+    position: relative;
+    padding: 10px 20px;
+    padding-right: 65px;
+    background: rgb(85, 162, 227);
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    overflow: hidden;
+    line-height: 1.714;
+    text-align: left;
+    border-radius: 25px;
+    transition: ease all 0.25s;
+    z-index: 1;
+}
+
+section.case-studies .case-studies-slider .item .desc .cta-box a:after {
+    background: -moz-linear-gradient( 137deg, rgb(219, 76, 144) 0%, rgb(105, 17, 114) 100%);
+    background: -webkit-linear-gradient( 137deg, rgb(219, 76, 144) 0%, rgb(105, 17, 114) 100%);
+    background: linear-gradient( 137deg, rgb(219, 76, 144) 0%, rgb(105, 17, 114) 100%);
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: ease all 0.25s;
+    z-index: -1;
+}
+
+section.case-studies .case-studies-slider .item .desc .cta-box a:hover:after {
+    right: 100%;
+}
+
+section.case-studies .case-studies-slider .item .desc .cta-box a i {
+    position: absolute;
+    right: 15px;
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    color: #7e1d86;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    transition: ease all 0.25s;
+    bottom: 0;
+    margin: auto;
+    z-index: 1;
+    overflow: hidden;
+}
+
+section.case-studies .case-studies-slider .item .desc .cta-box a:hover i {
+    color: #fff;
+}
+
+section.case-studies .case-studies-slider .item .desc .cta-box a i:after {
+    background: -moz-linear-gradient( 137deg, rgb(219, 76, 144) 0%, rgb(105, 17, 114) 100%);
+    background: -webkit-linear-gradient( 137deg, rgb(219, 76, 144) 0%, rgb(105, 17, 114) 100%);
+    background: linear-gradient( 137deg, rgb(219, 76, 144) 0%, rgb(105, 17, 114) 100%);
+    position: absolute;
+    content: '';
+    left: 100%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: ease all 0.25s;
+    z-index: -1;
+}
+
+section.case-studies .case-studies-slider .item .desc .cta-box a:hover i:after {
+    left: 0%
+}
+
+.case-studies-slider ul.slick-dots {
+    position: absolute;
+    left: 52%;
+    top: 0%;
+    bottom: 0px;
+    height: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    margin: auto;
+    transform: rotate(
+90deg
+);
+}
+section.case-studies .case-studies-slider ul.slick-dots li {
+    padding: 5px 0;
+    line-height: 1;
+}
+
+section.case-studies .case-studies-slider ul.slick-dots li button {
+    width: 10px;
+    height: 10px;
+    border: none;
+    border-radius: 100%;
+    transition: ease all 0.25s;
+    padding: 0;
+    font-size: 0;
+    background-color: #EFEFEF;
+}
+
+section.case-studies .case-studies-slider ul.slick-dots li.slick-active button {
+    background: #731674;
+}
+@media (max-width: 1199px){
+    section.case-studies .head-desc h3  {
+        font-size: 33px;
+    }
+    section.case-studies .head-desc h2{
+        font-size: 33px;
+        margin-bottom: 15px;
+    }
+    .head-desc h2 span:before{
+        width: 50px;
+        height: 50px;
+    }
+    section.case-studies .case-studies-slider .item .desc h3{
+        font-size: 32px;
+    }
+    section.case-studies .case-studies-slider .item .desc p{
+        font-size: 14px;
+        line-height: 27px;
+    }
+    
+}
+
+@media (max-width: 824px){
+    section.case-studies {
+        padding: 10px 0;
+       
+    }
+    section.case-studies .head-desc h3 {
+        font-size: 18px;
+    line-height: normal;
+    margin: 0;
+      
+    }
+    section.case-studies .head-desc h2 {
+        font-size: 18px;
+        margin: auto;
+        margin-bottom: 0;
+      
+    }
+    .head-desc h2 span:before {
+        height: 30px;
+        width: 30px;
+        bottom: 2%;
+        left: -38%;
+      
+    }
+    section.case-studies .head-desc {
+        padding-bottom: 27px;
+    }
+    section.case-studies .case-studies-slider .item .desc .cta-box {
+        margin-top: 0;
+    }
+    span.logo-box {
+     
+        top: 98px;
+        right: 26px;
+      
+    }
+    section.case-studies .case-studies-slider .item .desc {
+   
+        padding-top: 21px;
+    }
+    section.case-studies .case-studies-slider .item .desc h3 {
+        font-size: 18px;
+        padding: 10px 8px 0;
+        margin: 0;
+    }
+    section.case-studies .case-studies-slider .item .desc p {
+        font-size: 12px;
+        line-height: 23px;
+        margin: 0;
+        padding: 0 8px 5px;
+}
+section.case-studies .case-studies-slider .item .desc .cta-box a {
+    width: 140px;
+    height: 39px;
+    font-size: 11px;
+    white-space: pre;
+    padding: 10px 0 0 15px;
+}
+
+section.case-studies .case-studies-slider .item .desc .cta-box a i {
+    width: 22px;
+    height: 22px;
+    right: 16px;
+    font-size: 11px;
+}
+}

@@ -1,0 +1,332 @@
+.Ecommerce {
+	font-family: "Montserrat";
+}
+.Ecommerce .main-Banner{
+	height: 533px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Ecommerce .banner-content::before{
+	display: none;
+}
+.Ecommerce .banner-content::after{
+	display: none;
+}
+.Ecommerce .banner-content h1 {
+    font-size: 56px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #fff;
+    line-height: normal;
+    text-align: left;
+}
+.Ecommerce .banner-content h3{
+	color: #55a2e3;
+    text-align: left;
+
+
+} 
+.Ecommerce .banner-content h3:before{
+	display: none;
+}
+.Ecommerce .banner-img img {
+    position: absolute;
+    top: 32px;
+    left: 0;
+}
+.solution-content h4 {
+    text-align: left;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #741a7d;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+.solution-content h2 {
+    font-size: 49px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+	position: relative;
+	z-index: 1;
+	text-align: center;
+
+}
+.solution-content h2 span {
+    position: relative;
+    color: #fff;
+    z-index: 1;
+    line-height: 1;
+}
+.solution-content  h2 span::before {
+    position: absolute;
+    content: '';
+    height: 60px;
+    width: 60px;
+	bottom: -2px;
+    left: -18px;
+    right: 2%;
+    border-radius: 100%;
+    margin: auto;
+    z-index: -1;
+    background: -webkit-linear-gradient( 
+137deg
+ , rgb(116, 26, 125) 0%, rgb(188, 61, 136) 100%);
+}
+.our-solution {
+    padding: 62px 0 0;
+}
+.solution-content {
+	padding-bottom: 20px;
+}
+ul.solutions-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.solution-box {
+    height: 385px;
+    width: 385px;
+    padding: 20px 30px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+	background-color: rgb(255, 255, 255);
+	transition: 0.6s;
+
+}
+.solution-box h4 {
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 15px 0 10px;
+    color: #252525;
+}
+.solution-box p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #252525;
+    line-height: 24px;
+}
+.solution-box span {
+    padding-bottom: 10px;
+}
+.solution-box:hover{
+	box-shadow: 0px 0px 19.78px 3.22px rgba(0, 2, 3, 0.1);
+
+}
+.Ecommerce .bann-btn{
+	text-align: left;
+}
+.featured {
+	width: 100%;
+	height: 531px;
+	background-size: cover !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.featured-content h4 {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 900;
+    line-height: 48px;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.featured-content h2 {
+    font-size: 46px;
+    color: #fff;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 46px;
+}
+.featured-content p {
+    font-size: 15px;
+    color: #fff;
+    text-align: left;
+    line-height: 24px;
+	font-weight: 400;
+}
+ul.featured-list {
+    column-count: 2;
+}
+.featured-box {
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    width: 350px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s;
+}
+.featured-box span img{
+    flex-shrink: 1;
+}
+.featured-box span {
+    flex-shrink: 0;
+    border: 1px solid #fff;
+    padding: 15px;
+    border-radius: 50%;
+    background: none;
+}
+ul.featured-list li {
+    margin-bottom: 20px;
+}
+.f-boxContent h5 {
+    font-size: 16px;
+    text-align: left;
+    font-weight: 700;
+    line-height: revert;
+    color: #fff;
+}
+.f-boxContent p {
+    font-size: 16px;
+    text-align: left;
+    font-weight: 700;
+    line-height: revert;
+    color: #fff;
+}
+.f-boxContent p {
+    font-size: 12px;
+    text-align: left;
+    font-weight: 500;
+    line-height: 25px;
+    max-height: 100px;
+    color: #fff;
+    overflow-y: scroll;
+}
+.f-boxContent {
+    margin-left: 13px;
+}
+.featured-box:hover{
+    background-color: rgb(85, 162, 227);
+    box-shadow: 7.757px 13.994px 18px 0px rgba(0, 0, 0, 0.16);
+}
+.featured-box:hover span{
+    background: #fff;
+
+}
+.featured-box:hover img{
+    filter: grayscale(1) brightness(0);
+}
+@media (max-width: 824px){
+    .Ecommerce .main-Banner {
+        height: 150px;
+     
+    }
+    .Ecommerce .banner-content h1 {
+        font-size: 19px;
+        margin: 0;
+        padding: 0 0 6px;
+    }
+    .our-solution {
+        padding: 29px 0 0;
+    }
+    .solution-content h4 {
+        font-size: 18px;
+        letter-spacing: initial;
+        margin: 0;
+       
+    }
+    .solution-content h2 {
+        font-size: 22px;
+        text-transform: uppercase;
+   
+    }
+    .solution-content h2 span::before {
+    
+        height: 35px;
+        width: 35px;
+        bottom: -3px;
+        left: -16px;
+       
+    }
+    .solution-content {
+        padding-bottom: 0;
+    }
+    ul.solutions-list {
+        display: block;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .solution-box {
+        height: auto;
+        width: 100%;
+        padding: 13px 10px;}
+        .solution-box h4 {
+            font-size: 18px;
+            padding: 15px 0 0;
+            margin: 0;
+        }
+        .solution-box p {
+            font-size: 13px;
+            font-weight: 500;
+            color: #252525;
+            line-height: 21px;
+            margin: 0;
+        }
+        .featured{
+            padding: 10px 0 0;
+            height: auto;
+            background-size: cover !important;
+            background: url(../../../../Assets/images/services/website-development/e-commerce/feature/bg-2.jpg) !important
+        }  
+        .featured-content h4 {
+            color: #fff;
+       
+            line-height: normal;
+            letter-spacing: initial;
+            font-size: 18px;
+            margin: 0;
+            text-align: left;
+        }
+        .featured-content h2 {
+            font-size: 22px; 
+            line-height: normal;
+            text-align: left;
+            margin: 0;
+        }
+        .featured-content p {
+            font-size: 13px;
+            color: #fff;
+            
+        }
+        ul.featured-list {
+            column-count: 1;
+            padding: 0;
+        }
+        .featured-box {
+            border: 1px solid #fff;
+            padding: 10px 11px;
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 0.6s;
+        }
+        .Ecommerce  section.home-our-services .react-tabs {
+            margin-top: 0;
+        }
+        .Ecommerce   section.home-our-services .head-desc h2 {
+            font-size: 29px;
+            margin: auto;
+            padding: 5px 0 0;
+            margin-bottom: 0;
+        }
+        .Ecommerce  .tabs-menu {
+            margin: -39px 0 0 0;
+        }
+}

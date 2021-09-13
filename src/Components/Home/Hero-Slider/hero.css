@@ -1,0 +1,432 @@
+
+section.hero .hero-slider {
+    height: 100vh
+}
+
+section.hero .hero-slider .item-box {
+    position: relative;
+    height: 100%;
+}
+
+section.hero .hero-slider .item-box .anime {
+    position: absolute;
+    width: 100%;
+}
+
+section.hero .hero-slider .item-box .anime.one {
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: left 86%;
+    background-size: cover !important;
+    background:  url(../../../Assets/images/hero-anime-img-1.jpg) ;
+}
+
+section.hero .hero-slider .item-box .anime.two {
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: right;
+    background-position: center !important;
+    background-size: 101%;
+    height: 100%;
+    clip-path: polygon(76.5% 0, 100% 0, 100% 100%, 76.5% 100%);
+    animation: animetwo 6s infinite linear;
+    background-size: cover !important;
+}
+
+@keyframes animetwo {
+    0% {
+        clip-path: polygon(50.5% 0, 100% 0, 100% 100%, 51.5% 100%);
+    }
+    25% {
+        clip-path: polygon(21.5% 0, 100% 0, 100% 100%, 21.5% 100%);
+    }
+    50% {
+        clip-path: polygon(51.5% 0, 100% 0, 100% 100%, 51.5% 100%);
+    }
+    75% {
+        clip-path: polygon(80.5% 0, 100% 0, 100% 100%, 80.5% 100%);
+    }
+    100% {
+        clip-path: polygon(51.5% 0, 100% 0, 100% 100%, 51.5% 100%);
+    }
+}
+
+section.hero .hero-slider .item-box .anime .desc {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+section.hero .hero-slider .item-box .anime .desc h2 {
+    font-size: 48px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: normal;
+    margin: 0;
+    text-align: left;
+    padding: 0 0 0;
+}
+section.hero .hero-slider .item-box .anime .desc.__right h2{
+	text-align: left;
+}
+section.hero .hero-slider .item-box .anime .desc.__right p{
+    min-height: 161px;
+}
+section.hero .hero-slider .item-box .anime .desc p {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    line-height: 25px;
+    max-width: 28%;
+}
+section.hero .hero-slider .desc h3 {
+    font-size: 56px;
+    color: #ffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: normal;
+    margin: 0;
+    padding: 0 0 10px;
+}
+section.hero .hero-slider .item-box .anime .desc a {
+    display: inline-block;
+    position: relative;
+    padding: 10px 0 10px 17px;
+    padding-right: 65px;
+    background: rgb(85, 162, 227);
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    overflow: hidden;
+    line-height: 1.714;
+    text-align: left;
+    border-radius: 25px;
+    transition: ease all 0.25s;
+    z-index: 1;
+    width: 183px;
+    height: 43px;
+}
+section.hero .hero-slider .item-box .anime .desc a i {
+    position: absolute;
+    content: "\f054";
+    right: 19px;
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    color: #7e1d86;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    transition: ease all 0.25s;
+    bottom: 0;
+    margin: auto;
+    z-index: 1;
+    overflow: hidden;
+}
+section.hero .hero-slider .desc.__right h4 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 48px;
+    text-transform: uppercase;
+    margin: 0;
+    /* padding: 0 0 5px; */
+    line-height: 69px;
+}
+section.hero .hero-slider .desc.__right h5 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: uppercase;
+    padding: 0 0 7px;
+}
+section.hero .hero-slider .item-box .anime .desc a i:after {
+    background: -moz-linear-gradient( 137deg, rgb(219, 76, 144) 0%, rgb(105, 17, 114) 100%);
+    background: -webkit-linear-gradient( 137deg, rgb(219, 76, 144) 0%, rgb(105, 17, 114) 100%);
+    background: linear-gradient( 137deg, rgb(219, 76, 144) 0%, rgb(105, 17, 114) 100%);
+    position: absolute;
+    content: '';
+    left: 100%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: ease all 0.25s;
+    z-index: -1;
+}
+p.p__3 {
+    min-height: 206px !important;
+}
+section.hero .hero-slider .item-box .anime .desc a:after {
+    background: -moz-linear-gradient( 137deg, rgb(219, 76, 144) 0%, rgb(105, 17, 114) 100%);
+    background: -webkit-linear-gradient( 137deg, rgb(219, 76, 144) 0%, rgb(105, 17, 114) 100%);
+    background: linear-gradient( 137deg, rgb(219, 76, 144) 0%, rgb(105, 17, 114) 100%);
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: ease all 0.25s;
+    z-index: -1;
+}
+
+section.hero .hero-slider .item-box .anime .desc a:hover {
+    color: #fff
+}
+
+section.hero .hero-slider .item-box .anime .desc a:hover i {
+    color: #fff;
+}
+
+section.hero .hero-slider .item-box .anime .desc a:hover i:after {
+    left: 0%;
+}
+
+section.hero .hero-slider .item-box .anime .desc a:hover:after {
+    right: 100%;
+}
+
+section.hero .hero-slider .item-box .anime.one .desc {
+    align-items: flex-start;
+    text-align: left;
+}
+
+section.hero .hero-slider .item-box .anime.two .desc {
+    align-items: flex-end;
+    text-align: right;
+}
+ul.hero_dots {
+    position: absolute;
+    top: 50%;
+    z-index: 9;
+    /* background: #fff; */
+    transform: translateY(-50%);
+    margin: 0;
+}
+ul.hero_dots li button {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    position: relative;
+    background: #fff;
+    height: 22px;
+    width: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(85, 162, 227);
+    border-radius: 50%;
+    margin-bottom: 55px;
+}
+/* ul.hero_dots li:nth-child(3) button{
+    padding: 3px 0 0 0
+
+} */
+h2.ev {
+    line-height: 56px !important;
+}
+a.sm_ph {
+    margin-bottom: 57px !important;
+}
+ul.hero_dots li{
+    position: relative;
+   
+}
+ul.hero_dots li:before {
+    content: "";
+    height: 68px;
+    width: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    top: 35%;
+}
+ul.hero_dots li:nth-child(3)::before{
+    display: none;
+} 
+.hero_dots li.slick-active button {
+    color: #fff;
+    background: #55a2e3;
+}
+.hero_dots li.slick-active:before{
+    background: rgb(85, 162, 227);
+}
+/* @media (max-width: 2054px){
+  
+    section.hero .hero-slider .item-box .anime.two {
+     
+        background-position: -58px 0 !important;
+      
+    }
+    .anime.one.__3 {
+        background-position: 46px 0 !important;
+    }
+    
+} */
+
+
+
+ul.react-tabs__tab-list {
+    border-bottom: none;
+}
+@media (max-width: 991px){
+    section.hero .hero-slider .item-box .anime.one {
+        background-position: 35% 0 !important;
+    }
+    section.hero .hero-slider .item-box .anime.two {
+        background-position: 56% 0 !important;
+    }
+    section.hero .hero-slider .item-box .anime .desc p {
+        font-size: 12px;
+        line-height: 21px;
+        margin: 0;
+        padding: 0 0 10px 0;
+    }
+    section.hero .hero-slider .item-box .anime .desc h2 {
+        font-size: 32px;
+        height: 43px;
+    }
+    section.hero .hero-slider .desc.__right h4 {
+   
+        font-size: 32px;
+    
+        margin: 0;
+        
+        line-height: 0;
+        height: 26px;
+    }
+    section.hero .hero-slider .item-box .anime.two.__4 {
+        background-position: 70% 0 !important;
+    }
+    h2.ev {
+        line-height: initial !important;
+    }
+    p.p__3 {
+        min-height: 235px !important;
+    }
+    section.hero .hero-slider .item-box .anime .desc a {
+        padding: 10px 17px 10px 13px;
+        padding-right: 0;
+        font-size: 12px;
+        width: 153px;
+        height: 39px;
+    }
+    section.hero .hero-slider .item-box .anime .desc a i {
+  
+        right: 17px;
+        width: 24px;
+        height: 24px;
+      
+    }
+    section.hero .hero-slider {
+        height: 624px;
+    }
+    
+}
+@media (max-width: 1199px){
+    section.hero .hero-slider .item-box .anime .desc {
+        height: 70vh;
+    }
+    section.hero .hero-slider .desc.__right h4 {
+     
+        font-size: 46px;
+        padding-top: 15px;
+       
+        line-height: 57px;
+    }
+    section.hero .hero-slider .item-box .anime .desc p {
+     
+        max-width: 32%;
+    }
+    section.hero .hero-slider .item-box .anime.two.__4{
+        background-position: -86px 0 !important;
+    }
+    p.p__3 {
+        min-height: 190px !important;
+    }
+}
+@media (max-width: 824px){
+    section.hero .hero-slider .item-box .anime .desc h2 {
+        font-size: 28px;
+        margin: 0;
+        line-height: normal !important;
+        padding: 0;
+       
+    }
+    section.hero .hero-slider .item-box .anime .desc p {
+        font-size: 12px;
+        max-width: 80%;
+        line-height: 19px;
+    }
+    section.hero .hero-slider .item-box .anime.one{
+        height: auto;
+        background-position: 44% !important;
+    }
+    section.hero .hero-slider .item-box .anime.two{
+        height: auto;
+        background-position: 50% !important;
+    }
+    section.hero .hero-slider {
+        height: 400px;
+    }
+    section.hero .hero-slider .item-box .anime .desc a{
+        width: 146px;
+        font-size: 12px;
+        white-space: nowrap;
+        line-height: 21px;
+        height: 39px;
+        
+    }
+  
+    section.hero .hero-slider .item-box .anime .desc a i {
+        position: absolute;
+        content: "\f054";
+        right: 12px;
+        width: 25px;
+        height: 25px;
+        font-size: 12px;
+    }
+    section.hero .hero-slider .item-box .anime .desc {     
+        height: 464px;
+    }
+    section.hero .hero-slider .item-box .anime .desc.__right p {
+        text-align: right;
+        min-height: 118px;
+        display: none;
+    }
+    p.p__3 {
+        min-height: 166px !important;
+    }
+    ul.hero_dots {
+        display: none !important;
+    }
+    section.hero .hero-slider .desc.__right h4 {
+        color: #fff;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: normal !important;
+        text-transform: uppercase;
+        margin: 0;
+        /* padding: 0 0 5px; */
+        line-height: 67px;
+        display: none;
+    }
+    section.hero .hero-slider .item-box .anime .desc.__right h2 {
+        text-align: left;
+        display: none;
+    }
+    
+}

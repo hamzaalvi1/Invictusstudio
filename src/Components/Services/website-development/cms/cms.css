@@ -1,0 +1,360 @@
+.CMS {
+	font-family: "Montserrat";
+}
+.CMS .main-Banner{
+	height: 533px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.CMS .banner-content::before{
+	display: none;
+}
+.CMS .banner-content::after{
+	display: none;
+}
+.CMS .banner-content h1 {
+    font-size: 56px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #fff;
+    line-height: normal;
+    text-align: left;
+}
+.CMS .banner-content h3{
+	color: #55a2e3;
+    text-align: left;
+
+
+} 
+.CMS .banner-content h3:before{
+	display: none;
+}
+.CMS .banner-img img {
+    position: absolute;
+    top: 40px;
+    left: 0;
+}
+.inspire-content h4 {
+    text-align: left;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #741a7d;
+	letter-spacing: 2px;
+}
+.inspire-content {
+    padding: 15px 0 0;
+}
+.CMS  section.home-our-services .head-desc h2{
+  margin-bottom: 25px;
+}
+.inspire-content h2 {
+    font-size: 46px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+	position: relative;
+	z-index: 1;
+	text-align: left;	
+}
+.inspire-content h2 span {
+    position: relative;
+    color: #fff;
+    z-index: 1;
+    line-height: 1;
+}
+.inspire-content  h2 span::before {
+    position: absolute;
+    content: '';
+    height: 60px;
+    width: 60px;
+	bottom: -2px;
+    left: -4px;
+    right: 2%;
+    border-radius: 100%;
+    margin: auto;
+    z-index: -1;
+    background: -webkit-linear-gradient( 
+137deg
+ , rgb(116, 26, 125) 0%, rgb(188, 61, 136) 100%);
+}
+section.inspiring {
+    padding: 60px 0;
+}
+.inspire-content p {
+    text-align: left;
+    font-weight: 500;
+    line-height: 28px;
+    font-size: 15px;
+    padding: 5px 0;
+}
+.CMS .bann-btn{
+	text-align: left;
+} 
+
+.benefit-cms {
+	height: 425px;
+	background-size: cover;
+	width: 100%;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    position: relative;
+    margin-bottom: 150px;
+}
+.benefit-content h4 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #741a7d;
+	letter-spacing: 2px;
+}
+.benefit-content h2 {
+    font-size: 49px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+	position: relative;
+	z-index: 1;
+	text-align: center;	
+}
+.benefit-content h2 span {
+    position: relative;
+    color: #fff;
+    z-index: 1;
+    line-height: 1;
+}
+.benefit-content  h2 span::before {
+    position: absolute;
+    content: '';
+    height: 60px;
+    width: 60px;
+	bottom: -2px;
+    left: -18px;
+    right: 2%;
+    border-radius: 100%;
+    margin: auto;
+    z-index: -1;
+    background: -webkit-linear-gradient( 
+137deg
+ , rgb(116, 26, 125) 0%, rgb(188, 61, 136) 100%);
+}
+.benefit-content p {
+    text-align: center;
+    font-weight: 500;
+    line-height: 28px;
+    font-size: 15px;
+    padding: 20px 0 10px
+	;
+}
+.benif-box span {
+    width: 140px;
+    height: 140px;
+    border: 1px solid #741a7d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+	background: #fff;
+    transition: 0.5s ease-in;
+}
+.benif-box h6 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #252525;
+    text-transform: capitalize;
+    padding-top: 20px;
+}
+ul.benefit-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+.benif-box h6 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #252525;
+    text-transform: capitalize;
+    padding-top: 20px;
+}
+.benif-box span:hover{
+    background: -moz-linear-gradient( 137deg, rgb(219, 76, 144) 0%, rgb(105, 17, 114) 100%);
+    background: -webkit-linear-gradient( 137deg, rgb(219, 76, 144) 0%, rgb(105, 17, 114) 100%);
+    background: linear-gradient( 137deg, rgb(219, 76, 144) 0%, rgb(105, 17, 114) 100%);
+
+}
+.benif-box span:hover img{
+   filter: grayscale(1) brightness(100);
+
+}
+.inspire-content span {
+    display: none;
+}
+.benefit-content p {
+    padding: 20px 44px;
+}
+@media (max-width: 1199px){
+    .CMS .banner-content h1 {
+        font-size: 41px;
+        line-height: 44px;
+    }
+    .CMS .banner-content h3 {
+       
+        font-size: 21px;
+    }
+    section.inspiring {
+        padding: 23px 0;
+    }
+    .inspire-content h4 {
+        text-align: left;
+        font-size: 32px;
+    
+        letter-spacing: 1px;
+    }
+    .inspire-content h2 {
+        font-size: 33px;
+    }
+    
+}
+@media (max-width: 824px){
+    .CMS .main-Banner {
+        height: 150px;
+        margin: 0;
+       padding: 0 0 0;
+    }
+    .CMS .banner-content h1 {
+        font-size: 15px;
+        margin: 0;
+        padding: 0 0 3px;
+    }  
+.banner-content h3 {
+    font-size: 13px;
+    padding-bottom: 0;
+    margin: 0;
+}
+.CMS .banner-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+section.inspiring {
+    padding: 20px 0 5px;
+}
+.inspire-content h4 {
+    text-align: left;
+    font-size: 19px;
+  
+    letter-spacing: initial;
+    margin: 0;
+    padding: 0 0 5px;
+    text-align: center;
+}
+.inspire-content h2 {
+    font-size: 22px;
+    letter-spacing: initial; 
+    margin: 0;
+    text-align: center;
+
+}
+.inspire-content h2 span::before {
+    position: absolute;
+    content: '';
+    height: 35px;
+    width: 35px;
+    bottom: -2px;
+    left: -10px;
+  
+}
+.inspire-content p {
+    text-align: center;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+}
+.CMS .bann-btn {
+    text-align: center;
+    padding: 5px 0 0;
+    margin: 0;
+}
+.benefit-content h4 {
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: initial;
+    margin: 0;
+}
+.benefit-content h2 {
+    font-size: 24px;
+    letter-spacing: initial;
+    text-align: center;
+    margin: 0;
+}
+.benefit-content h2 span::before {
+
+    height: 35px;
+    width: 35px;
+    bottom: -2px;
+    left: -15px;
+
+}
+.benefit-cms{
+    height: auto;
+    padding: 10px 0;
+    margin: 0;
+}
+.benefit-content p {
+    font-size: 13px;
+    line-height: 23px;
+    padding: 5px 0;
+    margin: 0;
+}
+section.want-business {
+    background: #62b1e7f2;
+}
+ul.benefit-list {
+    display: block;
+    padding: 0;
+    position: relative;
+}
+ul.benefit-list li {
+    width: calc(100% / 3);
+    display: inline-block;
+    vertical-align: middle;
+}
+.benif-box span {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+  
+}
+.benif-box img {
+    width: 43px;
+}
+.benif-box h6 {
+    font-size: 13px;
+   
+    padding-top: 5px;
+}
+.CMS section.home-our-services .head-desc h2 {
+    font-size: 29px;
+    margin: auto;
+    margin-bottom: 0;
+}
+.CMS section.home-our-services .react-tabs{
+  margin: 0;
+}
+.CMS .tabs-menu {
+    margin-top: -51px;
+    display: block;
+}
+}

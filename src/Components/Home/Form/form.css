@@ -1,0 +1,291 @@
+section.footer-form-sect {
+    padding: 80px 0;
+    background-size: cover !important;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section.footer-form-sect .desc-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+section.footer-form-sect .desc-box h3 {
+    font-size: 36px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.15;
+    text-align: left;
+    margin: 0;
+}
+
+section.footer-form-sect .desc-box h2 {
+    font-size: 42px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: left;
+}
+
+section.footer-form-sect .desc-box p {
+    font-size: 15px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    line-height: 1.333;
+    text-align: left;
+    max-width: 350px
+}
+
+section.footer-form-sect .field {
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+    margin: 0;
+}
+
+section.footer-form-sect .field input,
+section.footer-form-sect .field select {
+    background: none;
+    border: none;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    height: 40px;
+    width: 100%;
+    outline: none;
+    padding: 0 5px;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    text-align: left;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+section.footer-form-sect .field select {
+    cursor: pointer;
+}
+
+section.footer-form-sect .field label {
+    position: absolute;
+    top: 12px;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    text-align: left;
+    left: 5px;
+    z-index: -1;
+    transition: all 0.2s ease;
+}
+
+section.footer-form-sect .field input:focus+label,
+section.footer-form-sect .field.used label {
+    top: -3px;
+    left: 0;
+    font-size: 12px;
+}
+
+section.footer-form-sect .field.code {
+    width: 80px;
+    padding-right: 0;
+}
+
+section.footer-form-sect .field.number {
+    padding-left: 0;
+    width: calc(100% - 80px);
+}
+
+section.footer-form-sect .field select option {
+    background: rgb(105, 17, 114);
+}
+
+section.footer-form-sect .field select::-webkit-scrollbar {
+    width: 5px;
+}
+.field input::placeholder {
+    color: #fff !important;
+}
+section.footer-form-sect .field select::-webkit-scrollbar-track {
+    background: #681172;
+    border: 1px solid #55a2e3;
+}
+
+section.footer-form-sect .field select::-webkit-scrollbar-thumb {
+    background: #55a2e3;
+}
+
+section.footer-form-sect .field i {
+    position: absolute;
+    right: 0;
+    top: 12px;
+    bottom: 0;
+    color: #fff;
+    z-index: -1
+}
+
+section.footer-form-sect .btn-box {
+    margin-top: 15px;
+}
+
+section.footer-form-sect .btn-box button {
+    display: inline-block;
+    position: relative;
+    padding: 10px 20px;
+    padding-right: 65px;
+    background: rgb(85, 162, 227);
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    overflow: hidden;
+    line-height: 1.714;
+    text-align: left;
+    border-radius: 25px;
+    transition: ease all 0.25s;
+    z-index: 1;
+    border: none;
+}
+
+section.footer-form-sect .btn-box button:after {
+    background: #fff;
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 100%;
+    top: 0;
+    bottom: 0;
+    transition: ease all 0.25s;
+    z-index: -1;
+}
+
+section.footer-form-sect .btn-box button:hover {
+    color: rgb(85, 162, 227);
+}
+
+section.footer-form-sect .btn-box button:hover:after {
+    right: 0%;
+}
+
+section.footer-form-sect .btn-box button i {
+    position: absolute;
+    right: 15px;
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    color: #7e1d86;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    transition: ease all 0.25s;
+    bottom: 0;
+    margin: auto;
+    z-index: 1;
+    overflow: hidden;
+}
+
+section.footer-form-sect .btn-box button:hover i {
+    color: #fff;
+    background: -moz-linear-gradient( 137deg, rgb(219, 76, 144) 0%, rgb(105, 17, 114) 100%);
+    background: -webkit-linear-gradient( 137deg, rgb(219, 76, 144) 0%, rgb(105, 17, 114) 100%);
+    background: linear-gradient( 137deg, rgb(219, 76, 144) 0%, rgb(105, 17, 114) 100%);
+}
+
+section.footer-form-sect .btn-box button i:after {
+   
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    bottom: 0;
+    transition: ease all 0.25s;
+    z-index: -1;
+    right: 0%
+
+}
+p.ftr_errors_valid {
+    text-align: left;
+    font-size: 15px;
+    padding: 10px 0 0;
+    font-weight: 500;
+    -webkit-backface-visibility: hidden;
+    margin: 0;
+}
+@media(max-width: 1199px){
+    section.footer-form-sect .desc-box h3{
+        font-size: 32px;
+    }
+    section.footer-form-sect .desc-box h2{
+        font-size: 33px;
+    }
+    section.footer-form-sect .desc-box p {
+        font-size: 14px;
+   
+        max-width: 100%;
+    }
+}
+@media (max-width: 824px)  {
+section.footer-form-sect {
+    padding: 24px 0;
+
+}
+section.footer-form-sect .desc-box h3 {
+    font-size: 18px;
+    
+    padding-bottom: 05px;
+}
+section.footer-form-sect .desc-box h2 {
+    font-size: 21px;
+    margin: 0;
+    padding: 0 0 4px;
+   
+}
+section.footer-form-sect .desc-box p {
+    font-size: 13px;
+ 
+}
+section.footer-form-sect .field.code {
+    margin: 0px 15px;
+    width: 100%;
+}
+section.footer-form-sect .field.number {
+    width: 100%;
+    margin: 0 15px;
+}
+section.footer-form-sect .btn-box {
+    display: block;
+    margin: auto;
+    text-align: left;
+    margin-top: 10px;
+}
+section.footer-form-sect .field {
+    padding-bottom: 2px;
+  
+    
+}
+section.footer-form-sect .btn-box button {
+    width: 140px;
+    height: 39px;
+    font-size: 11px;
+    white-space: pre;
+    padding: 0 0 0 14px;
+}
+section.footer-form-sect .btn-box button i{    
+    width: 22px;
+    height: 22px;
+    right: 16px;
+    font-size: 11px;}
+
+
+}
